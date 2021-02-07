@@ -5,7 +5,7 @@ import java.util.Random;
 public class Generator {
 
 
-    public static String alfabeLower = "abcdefghytzxvbnmlşipou";
+    public static String alfabeLower = "abcdefghytzxvbnmlsipou";
     public static String alfabeUpper = alfabeLower.toUpperCase().replace("İ", "I");
     public static String numbers = "0123456789";
     public static String specielsChars = ".!?*%";
