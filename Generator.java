@@ -1,4 +1,4 @@
-package com.example.passwordgenerator;
+package com.example.generator;
 
 import java.util.Random;
 
