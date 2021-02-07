@@ -21,4 +21,15 @@ public class Generator {
         }
         return text;
     }
+    
+     public static String generateRandomString(int size, String alphabet){
+        String text = "";
+         allStr = alphabet;
+        char[] chars = allStr.toCharArray();
+        for(int j = 0; j < size; j++){
+            char c = chars[new Random().nextInt(chars.length)];
+            text += c;
+        }
+        return text;
+    }
 }
