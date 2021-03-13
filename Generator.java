@@ -24,8 +24,7 @@ public class Generator {
     
      public static String generateRandomString(int size, String alphabet){
         String text = "";
-         allStr = alphabet;
-        char[] chars = allStr.toCharArray();
+        char[] chars = alphabet.toCharArray();
         for(int j = 0; j < size; j++){
             char c = chars[new Random().nextInt(chars.length)];
             text += c;
